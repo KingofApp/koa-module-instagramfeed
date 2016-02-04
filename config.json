@@ -13,11 +13,11 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "modules/instagramfeed/index.html",
-  "files": ["modules/instagramfeed/controller.js"],
+  "view": "http://resources.kingofapp.com/modules/instagramfeed/index.html",
+  "files": ["http://resources.kingofapp.com/modules/instagramfeed/controller.js"],
   "scope": {
-    "accesstoken": "XXXXX",
-    "userid": "50417061"
+    "accesstoken": "",
+    "userid": ""
   },
   "config": [{
     "type": "input",
