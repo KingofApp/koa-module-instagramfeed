@@ -34,7 +34,8 @@
   ],
   "scope": {
     "accesstoken": "",
-    "userid": ""
+    "userid": "",
+    "showDescription": true
   },
   "config": [{
     "type": "input",
@@ -52,6 +53,13 @@
       "required": true,
       "pattern": "^[0-9]+$",
       "label": "userid"
+    }
+  }, {
+    "key": "showDescription",
+    "type": "checkbox",
+    "templateOptions": {
+      "description": "Show descriptions",
+      "label": "Descriptions"
     }
   }],
   "showOn": {

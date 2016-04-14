@@ -3,7 +3,7 @@
   <koa-item ng-if="instagramfeed.message">{{instagramfeed.message}}</koa-item>
 
   <koa-card image="{{item.images.standard_resolution.url}}" ng-repeat="item in instagramfeed.items">
-    <div class="card-content">{{item.caption.text}}</div>
+    <div class="card-content" ng-if="instagramhash.modulescope.showDescription">{{item.caption.text}}</div>
   </koa-card>
 
 </div>
