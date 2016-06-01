@@ -68,13 +68,13 @@
     "market": true
   },
   "images": {
-    "list": "modules/instagramfeed/images/list.png",
+    "list": "modules/instagramfeed/images/instagramfeed_list",
     "screenshots": [
-      "modules/instagramfeed/images/screenshot01.png",
-      "modules/instagramfeed/images/screenshot02.png"
+      "modules/instagramfeed/images/Instagramfeed_screenshot01",
+      "modules/instagramfeed/images/Instagramfeed_screenshot01"
     ],
-    "popover": "modules/instagramfeed/images/popover.png",
-    "banner": "modules/instagramfeed/images/banner.png",
-    "logo": "modules/instagramfeed/images/logo.png"
+    "popover": "modules/instagramfeed/images/instagramfeed_popover",
+    "banner": "modules/instagramfeed/images/instagramfeed_popover",
+    "logo": "modules/instagramfeed/images/instagramfeed_icon"
   }
 }
