@@ -15,7 +15,7 @@
   },
   "icon": "instagram",
   "type": "A",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "King of App",
   "category": [
     "social"
@@ -34,7 +34,8 @@
   ],
   "scope": {
     "accesstoken": "",
-    "userid": ""
+    "userid": "",
+    "showDescription": true
   },
   "config": [{
     "type": "input",
@@ -53,6 +54,13 @@
       "pattern": "^[0-9]+$",
       "label": "userid"
     }
+  }, {
+    "key": "showDescription",
+    "type": "checkbox",
+    "templateOptions": {
+      "description": "Show descriptions",
+      "label": "Descriptions"
+    }
   }],
   "showOn": {
     "dragDrop": true,
@@ -60,13 +68,13 @@
     "market": true
   },
   "images": {
-    "list": "modules/instagramfeed/images/list.png",
+    "list": "modules/instagramfeed/images/instagramfeed_list.png",
     "screenshots": [
-      "modules/instagramfeed/images/screenshot01.png",
-      "modules/instagramfeed/images/screenshot02.png"
+      "modules/instagramfeed/images/Instagramfeed_screenshot01.png",
+      "modules/instagramfeed/images/Instagramfeed_screenshot02.png"
     ],
-    "popover": "modules/instagramfeed/images/popover.png",
-    "banner": "modules/instagramfeed/images/banner.png",
-    "logo": "modules/instagramfeed/images/logo.png"
+    "popover": "modules/instagramfeed/images/instagramfeed_popover.png",
+    "banner": "modules/instagramfeed/images/instagramfeed_popover.png",
+    "logo": "modules/instagramfeed/images/instagramfeed_icon.png"
   }
 }
