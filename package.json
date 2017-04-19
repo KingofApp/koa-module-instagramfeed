@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-instagramfeed",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Comparte tus fotos de Instagram dentro de tu app.",
   "directories": {
     "test": "test"
