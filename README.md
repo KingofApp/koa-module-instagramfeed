@@ -6,5 +6,5 @@ Si hay una red social fotográfica por excelencia esta es **Instagram**. Sin dud
 ### Details:
 
 - Author: King of app
-- Version: 1.0.7
+- Version: 1.0.8
 - Homepage:
